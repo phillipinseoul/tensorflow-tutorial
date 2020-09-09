@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[8]:
-
+# Program: Learn from images of clothing and predict.
 
 import tensorflow as tf
 from tensorflow import keras
@@ -44,20 +42,3 @@ for i in range(5):
     plt.title("Prediction: " + class_names[np.argmax(prediction[i])])
     plt.show()
     
-
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
