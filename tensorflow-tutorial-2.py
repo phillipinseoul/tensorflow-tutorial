@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[17]:
-
+# Prgram: Learn from movie reiews in imdb & Predict a given review.
 
 import tensorflow as tf
 from tensorflow import keras
@@ -58,7 +56,7 @@ results = model.evaluate(test_data, test_labels)
 
 print(results)
 
-model.save("model.h5")   # save the model in binary data
+model.save("model.h5")   # save the model in binary data -> only done once, then remove from the code
 '''
 
 def review_encode(s):
@@ -94,11 +92,3 @@ print("Prediction: " + str(predict[0]))
 print("Actual: " + str(test_labels[0]))
 print(results)
 '''
-
-
-
-# In[ ]:
-
-
-
-
