@@ -1,6 +1,7 @@
 # TensorFlow Tutorial
 
-Source: Youtube freeCodeCamp.org (https://www.youtube.com/watch?v=tPYj3fFJGjk&t=16922s)
+## Source
+Youtube freeCodeCamp.org (https://www.youtube.com/watch?v=tPYj3fFJGjk&t=16922s)
 
 ## Modules
 * 2: Introduction to TensorFlow
